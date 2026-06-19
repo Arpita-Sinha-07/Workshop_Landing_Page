@@ -53,7 +53,7 @@ function RegistrationForm() {
   return (
     <section
       style={{
-        background: "#dbeafe",
+        background: "#dbeafe"
       }}
     >
       <div className="container">
@@ -69,7 +69,7 @@ function RegistrationForm() {
             maxWidth: "500px",
           }}
         >
-          <input
+          <input className="rounded-box"
             type="text"
             name="name"
             placeholder="Name"
@@ -78,7 +78,7 @@ function RegistrationForm() {
             required
           />
 
-          <input
+          <input className="rounded-box"
             type="email"
             name="email"
             placeholder="Email"
@@ -87,7 +87,7 @@ function RegistrationForm() {
             required
           />
 
-          <input
+          <input className="rounded-box"
             type="text"
             name="phone"
             placeholder="Phone Number"
@@ -96,7 +96,7 @@ function RegistrationForm() {
             required
           />
 
-          <button
+          <button 
             className="btn"
             disabled={loading}
           >
